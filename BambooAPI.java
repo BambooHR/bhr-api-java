@@ -43,7 +43,7 @@ import sun.misc.BASE64Encoder;
 
 public class BambooAPI {
 	protected BambooHTTPClient httpHandler;
-	protected String baseUrl="https://www.bamboohr.com/api/gateway.php/";
+	protected String baseUrl="https://api.bamboohr.com/api/gateway.php/";
 
 
 	BambooAPI(String companyDomain) {
